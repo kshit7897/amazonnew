@@ -1,0 +1,381 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------header start from below---------------------- */
+
+.banner{
+    height: 300px;
+    background-image:;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contanear{
+    height: 70px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content:start;
+    align-items: center;
+    background-color: #0F1111;
+}
+.logo img{
+    height: 40px;
+    padding-left: 10px;
+}
+.city{
+    display: grid;
+    grid-auto-flow: column;
+}
+.account{
+    margin-left: 25px;
+    width: 400px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: end;
+    justify-content: space-around;
+    color: white;
+}
+.signin>select{
+    background-color: black;
+    color:white;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+}
+.signin>p{
+    margin-left: 10px;
+}
+.cart{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: end;
+    margin-left: 10px;
+}
+.fa-cart-shopping{
+    font-size: 35px;
+}
+.cart>p{
+    font-size: 20px;
+}
+
+
+
+.search{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+.search>input{
+    height: 40px;
+    width: 580px;
+    border: none;
+}
+.search>i{
+    font-size: 30px;
+    padding: 5px;
+    background-color: rgb(238, 211, 120);
+    border-radius: 0 5px 5px 0;
+}
+.search>select{
+    font-size: 20px;
+    padding:10px 8px;
+    border: none;
+    background-color: rgb(165, 200, 236);
+    border-radius: 10px 0 0 10px;
+    margin-left: 10px;
+}
+.location{
+    color: white;
+    margin:0 10px;
+}
+.city>p{
+    font-weight: bold;
+}
+
+/* -----------------------nav list start from below-------------------- */
+.nav-list{
+    height: 40px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(28, 28, 134);
+    padding-left: 10px;
+}
+.navbar>a,.offer>a{
+    margin:0 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+/* ----------------------banner start from below---------------- */
+
+.banner{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content:center ;
+    align-items:end;
+
+}
+.banner>p,.banner>a{
+    background-color: white;
+    padding: 5px 0;
+   margin-bottom: 20px;
+}
+.banner>p{
+    padding-left: 100px;
+}
+.banner>a{
+    padding-right: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(105, 105, 238);
+}
+
+/* 
+-------------main start from below--------------------- */
+
+
+main{
+    padding: 15px;
+    background-color: rgb(106, 133, 121);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 120px 200px 310px 200px 200px;
+    grid-template-areas:
+    "product1 product2 product3 product4"
+    "product1 product2 product3 product5"
+    "product6 product7 product9 product8 "
+    "product10 product10 product10 product10"
+    "product11 product11 product11 product11"
+    ;
+    grid-gap: 15px;
+}
+
+.product1{
+    background-color: white;
+    grid-area:product1;
+   
+    
+}
+.product1>p{
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.gaming>div>img{
+    height: 90px;
+    width: 120px;
+}
+.gaming{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 10px;
+}
+.gaming>div{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.product1>a{
+    margin:0 20px;
+    text-decoration: none;
+}
+.product2{
+    background-color: white;
+    grid-area:product2; 
+}
+.product2>p{
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.product2>a{
+    margin:0 20px;
+    text-decoration: none;
+}
+.Category{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 10px;
+}
+.Category>div{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Category>div>img{
+    height: 90px;
+    width: 120px;
+}
+
+.product3{
+    background-color: white;
+    grid-area:product3;
+}
+
+.product3>p{
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.product3>a{
+    margin:0 20px;
+    text-decoration: none;
+}
+
+.fitness{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.fitness>img{
+    height: 220px;
+    width: 280px;
+}
+.product4{
+    background-color: white;
+    grid-area:product4;
+    padding: 20px 15px;
+}
+.product4>p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.product4>button{
+    border: none;
+    background-color: yellow;
+    padding: 5px 85px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.product5{
+    grid-area:product5;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product6{
+    background-color: white;
+    grid-area:product6;
+}
+.product6>p{
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.product>a{
+    margin:0 20px;
+    text-decoration: none;
+}
+
+.product7{
+    background-color: white;
+    grid-area:product7;
+}
+
+.product7>p{
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.product8{
+    background-color: white;
+    grid-area:product8;
+}
+.product8>p{
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+
+.item{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.item>img{
+    height: 220px;
+    width: 280px;
+}
+
+.product9{
+    background-color: white;
+    grid-area:product9;
+}
+
+.product9>p{
+    margin: 10px 20px 0 20px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.dod{
+    text-align: center;
+}
+.dod>img{
+   height: 170px;
+   width: 200px;
+}
+.product9>h3{
+    color: red;
+    font-size: 13px;
+}
+.product9>h3>span{
+    font-size: 15px;
+    background-color: rgb(255, 0, 170);
+    margin-left: 20px;
+    padding: 5px;
+    color: white;
+}
+.product9>h4{
+    margin: 10px 0 5px 20px;
+}
+.product9>h5{
+    margin: 0 0 5px 20px;
+}
+.product9>a{
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.product10>p,.product11>p{
+    margin: 10px 0 20px 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.product10{
+    background-color: white;
+    grid-area:product10;
+}
+.popular>img{
+    height: 120px;
+}
+.popular{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+}
+
+.product11{
+    background-color: white;
+    grid-area:product11;
+}
+.Frequently>img{
+    height: 130px;
+}
+.Frequently{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+}
