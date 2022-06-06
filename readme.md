@@ -1,1 +1,1 @@
-![alt text](amazon1.png)
+![alt text](/amazon1.PNG)
